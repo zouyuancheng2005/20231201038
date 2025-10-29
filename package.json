@@ -1,0 +1,35 @@
+{
+  "name": "tieba-project",
+  "version": "1.0.0",
+  "description": "百度贴吧毕业设计项目 - Vue + React混合开发",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "python manage.py runserver"
+  },
+  "dependencies": {
+    "veaury": "^2.6.0",
+    "vue": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vue-router": "^4.2.0",
+    "pinia": "^2.1.0",
+    "element-plus": "^2.3.0",
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.4.0",
+    "react-router-dom": "^6.14.0",
+    "zustand": "^4.4.0",
+    "antd": "^5.8.0",
+    "@ant-design/icons": "^5.2.0",
+    "react-query": "^3.39.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}

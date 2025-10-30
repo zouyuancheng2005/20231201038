@@ -6,7 +6,7 @@ const TiebaDetail = defineAsyncComponent(() => import('@/vue-components/TiebaDet
 const PostDetail = defineAsyncComponent(() => import('@/vue-components/PostDetail.vue'))
 const UserProfile = defineAsyncComponent(() => import('@/vue-components/UserProfile.vue'))
 const SearchPage = defineAsyncComponent(() => import('@/vue-components/SearchPage.vue'))
-const CreatePost = defineAsyncComponent(() => import('@/pages/CreatePost.vue'))
+const CreatePost = defineAsyncComponent(() => import('@/vue-components/CreatePost.vue'))
 
 // 路由配置
 export const routes = [
